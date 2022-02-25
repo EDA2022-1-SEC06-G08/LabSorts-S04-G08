@@ -102,12 +102,6 @@ def printBestBooks(books):
 def printSortResults(sort_books, sample=3):
     # TODO completar funcion para imprimir resultados
     # sort lab 4
-    pass
-
-
-def printSortResults(sort_books, sample=3):
-    # TODO completar funcion para imprimir resultados
-    # sort lab 4
     size = lt.size(sort_books)
     if size <= sample * 2:
         print("Los", size, "libros ordenados son:")
